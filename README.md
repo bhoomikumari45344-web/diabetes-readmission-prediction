@@ -60,3 +60,31 @@ The project aims to support the early identification of diabetic patients who ma
 ## Limitations
 
 The dataset represents historical healthcare records from 1999-2008 and is based on hospitals in the United States. Therefore, the findings may not directly generalize to current healthcare settings or other countries. The predictive model will be considered a decision-support tool and not a replacement for clinical judgment.
+
+## Week 2: Data Extraction and Cleaning
+
+In Week 2, I worked on data extraction, cleaning, and preprocessing of the diabetes healthcare dataset using Python, Pandas, NumPy, and Google Colab.
+
+### Work Completed
+- Loaded the diabetes healthcare dataset using Pandas.
+- Dataset contained 101,766 records and 50 columns.
+- Identified missing and unknown values.
+- Converted `?` values into `NaN`.
+- Removed 5 highly incomplete columns:
+  - `weight`
+  - `max_glu_serum`
+  - `A1Cresult`
+  - `medical_specialty`
+  - `payer_code`
+- Handled remaining missing values using `Unknown`.
+- Checked duplicate records and found 0 duplicates.
+- Created a binary target variable `readmitted_30`.
+- Final cleaned dataset contains 101,766 rows and 46 columns.
+- Final missing values: 0.
+- Final duplicate rows: 0.
+
+### Target Distribution
+- Class 0: 90,409
+- Class 1: 11,357
+
+The cleaned dataset is ready for exploratory data analysis and visualization in Week 3.
