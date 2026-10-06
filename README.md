@@ -82,9 +82,37 @@ In Week 2, I worked on data extraction, cleaning, and preprocessing of the diabe
 - Final cleaned dataset contains 101,766 rows and 46 columns.
 - Final missing values: 0.
 - Final duplicate rows: 0.
-
-### Target Distribution
+- 
+- ### Target Distribution
 - Class 0: 90,409
 - Class 1: 11,357
 
-The cleaned dataset is ready for exploratory data analysis and visualization in Week 3.
+- The cleaned dataset is ready for exploratory data analysis and visualization in Week 3.
+
+- ## Week 3: Exploratory Data Analysis & Visualization
+
+In Week 3, I performed Exploratory Data Analysis (EDA) and visualization on the cleaned diabetes healthcare dataset using Python, Pandas, Matplotlib, and Seaborn in Google Colab.
+
+### Work Completed
+- Analyzed the dataset containing 101,766 records and 46 columns.
+- Performed descriptive statistics and data inspection.
+- Analyzed the distribution of 30-day hospital readmission.
+- Studied age groups and their 30-day readmission rates.
+- Analyzed the distribution of hospital stay duration.
+- Compared hospital stay with 30-day readmission.
+- Studied previous inpatient visits and their relationship with readmission.
+- Created a correlation matrix and heatmap for numerical variables.
+- Created a scatter plot for hospital stay and number of medications.
+- Compared 30-day readmission rates by gender.
+
+### Key Findings
+- Overall 30-day readmission rate was about 11.16%.
+- Previous inpatient visits showed an increasing observed readmission-rate pattern.
+- The correlation between previous inpatient visits and 30-day readmission was 0.17.
+- Hospital stay and number of medications had a correlation of 0.47.
+- Female and male readmission rates were very close: 11.25% and 11.06%.
+
+The EDA results will be used for the next stage of predictive modelling.
+
+
+
