@@ -152,4 +152,37 @@ In Week 4, I developed and evaluated machine learning models to predict 30-day h
 The Week 4 results provide the foundation for the next stage of the project: interpreting the findings and developing practical healthcare recommendations.
 
 
+## Week 5: Reporting, Interpretation & Future Strategies
+
+In Week 5, I consolidated the complete healthcare data analytics project into a final report. The project focused on predicting 30-day hospital readmission risk among diabetic patients.
+
+### Work Completed
+- Consolidated the work completed from Week 1 to Week 4.
+- Summarized the project planning, data cleaning, exploratory data analysis, and predictive modeling stages.
+- Interpreted important patterns and findings from the dataset.
+- Compared the performance of Logistic Regression, Decision Tree, and Random Forest models.
+- Discussed data cleaning challenges, class imbalance, data leakage, missing values, outliers, and model limitations.
+- Discussed the practical implications of the findings for healthcare analytics.
+- Provided recommendations for future analytics projects and healthcare data management.
+- Included ethical considerations and future improvement strategies.
+
+### Final Key Findings
+- The dataset contained 101,766 patient records.
+- The final cleaned dataset contained 46 columns.
+- The overall 30-day readmission rate was 11.16%.
+- Previous inpatient visits showed an increasing observed pattern in 30-day readmission rates.
+- The correlation between previous inpatient visits and 30-day readmission was 0.17.
+- Hospital stay and number of medications had a correlation of 0.47.
+- Logistic Regression achieved 64.17% accuracy.
+- Decision Tree achieved the highest Recall of 62.70% and ROC-AUC of 65.59%.
+- Random Forest achieved 62.66% accuracy and 64.46% ROC-AUC.
+
+The final analysis suggests that machine learning can provide a baseline framework for identifying patients who may require closer follow-up after discharge. However, further feature engineering, model tuning, validation, fairness analysis, and clinical evaluation would be required before real-world healthcare deployment.
+
+### Final Report
+The complete Week 5 final report is available in this repository as:
+
+`Week_5_Final_Healthcare_Data_Analytics_Report.docx`
+
+
 
