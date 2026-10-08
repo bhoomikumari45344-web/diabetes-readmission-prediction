@@ -1,6 +1,6 @@
 # Diabetes Readmission Prediction
 
-## Project Overview
+## Week-1 : Project Overview
 
 This project focuses on using healthcare data analytics and machine learning to identify diabetic patients who may be at high risk of hospital readmission within 30 days of discharge.
 
@@ -113,6 +113,43 @@ In Week 3, I performed Exploratory Data Analysis (EDA) and visualization on the 
 - Female and male readmission rates were very close: 11.25% and 11.06%.
 
 The EDA results will be used for the next stage of predictive modelling.
+
+
+## Week 4: Predictive Modeling and Machine Learning
+
+In Week 4, I developed and evaluated machine learning models to predict 30-day hospital readmission risk among diabetic patients using Python, Scikit-learn, and Google Colab.
+
+### Work Completed
+- Loaded the cleaned healthcare dataset containing 101,766 records and 46 columns.
+- Created the binary target variable `readmitted_30`.
+- Removed identifier columns such as `encounter_id` and `patient_nbr`.
+- Removed the original `readmitted` column to prevent data leakage.
+- Converted categorical features using one-hot encoding.
+- Split the data into 80% training and 20% testing sets using stratified sampling.
+- Trained three machine learning models:
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+- Evaluated the models using Accuracy, Precision, Recall, and ROC-AUC.
+- Compared model performance using a results table and ROC curve.
+- Considered class imbalance, overfitting, missing data, outliers, bias, and ethical issues.
+
+### Model Results
+
+| Model | Accuracy | Precision | Recall | ROC-AUC |
+|---|---:|---:|---:|---:|
+| Logistic Regression | 64.17% | 16.58% | 54.82% | 64.25% |
+| Decision Tree | 61.19% | 16.80% | 62.70% | 65.59% |
+| Random Forest | 62.66% | 16.27% | 56.58% | 64.46% |
+
+### Key Findings
+- Logistic Regression achieved the highest accuracy of 64.17%.
+- Decision Tree achieved the highest recall of 62.70% and ROC-AUC of 65.59%.
+- The Decision Tree showed the strongest overall performance among the three models based on recall and ROC-AUC.
+- The results indicate that the models have moderate predictive ability and would require further tuning and validation before any real-world healthcare use.
+- The model can potentially support identification of patients who may need closer follow-up after discharge.
+
+The Week 4 results provide the foundation for the next stage of the project: interpreting the findings and developing practical healthcare recommendations.
 
 
 
